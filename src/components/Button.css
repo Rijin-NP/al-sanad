@@ -1,0 +1,59 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  border-radius: var(--radius-medium);
+  letter-spacing: 0.02em;
+}
+
+.btn-sm {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.8rem;
+}
+
+.btn-md {
+  padding: 0.9rem 2rem;
+  font-size: 0.95rem;
+}
+
+.btn-lg {
+  padding: 1.1rem 2.8rem;
+  font-size: 1.1rem;
+}
+
+.btn-solid {
+  background: var(--color-primary);
+  color: #FFFFFF;
+  border: 2px solid var(--color-primary);
+}
+
+.btn-accent {
+  background: var(--color-accent);
+  color: #FFFFFF;
+  border: 2px solid var(--color-accent);
+}
+
+.btn-solid:hover, .btn-accent:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  filter: brightness(1.1);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+}
+
+.btn-outline:hover {
+  background: var(--color-accent);
+  color: #FFFFFF;
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-pill {
+  border-radius: var(--radius-pill);
+}

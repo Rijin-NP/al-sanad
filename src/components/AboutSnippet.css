@@ -1,0 +1,25 @@
+.about-snippet {
+  background: var(--color-surface);
+  padding: 100px 0;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-lg);
+  border: 4px solid #FFFFFF;
+}
+
+.section-body {
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .about-snippet-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

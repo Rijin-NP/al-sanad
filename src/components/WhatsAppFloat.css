@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #25D366; /* WhatsApp Green */
+  background-color: var(--color-primary);
   color: white;
   width: 60px;
   height: 60px;
@@ -17,7 +17,7 @@
 
 .whatsapp-float:hover {
   transform: scale(1.1) translateY(-5px);
-  background-color: #20BA5A;
+  background-color: var(--color-primary-dark);
 }
 
 .whatsapp-tooltip {

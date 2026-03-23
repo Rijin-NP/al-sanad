@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
                 <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" rows={4} placeholder="How can we help you?" required></textarea>
               </div>
-              <Button variant="solid" type="submit" className="submit-btn gold-shimmer">
+              <Button variant="solid" type="submit" className="submit-btn">
                 Send Message
               </Button>
             </form>
